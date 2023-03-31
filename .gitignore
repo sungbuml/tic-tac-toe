@@ -1,0 +1,8 @@
+### InteliJ 
+ttt-java/*.iml
+ttt-java/*.idea
+ttt-java/**/out/
+
+
+### Mac OS
+.DS_Store
