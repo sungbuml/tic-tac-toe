@@ -8,7 +8,6 @@ Minimax Algorithm provides the player with the best move, assuming that the oppo
 
 Here is a simple explanation of how this algorithm works. There will be two players: the `maximizing player` and the `minimizing player`. Once the algorithm is told to determine certain player's move, it goes through the following process. First, the algorithm examines all possible moves that the player can make. Then, it assigns values to those moves through evaluating gameboard that is produced as a result of the moves. Typically, positive number is assigned if the `maximizing player` is winning in given gameboard, and negative number is assigned if the `minimizing player` is winning. Finally, the algorithm returns "most optimal" move for the given player. This would be the move with the highest value for the `maximizing player` and the move with the lowest value for the `minimizing player`
 
----
 
 ### Determining Value of a Gameboard(Tic Tac Toe)
 
